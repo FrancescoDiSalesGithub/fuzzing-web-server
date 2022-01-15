@@ -26,5 +26,6 @@ In the first solution:
 * Run `docker network create mynetwork-name` 
 * Run `docker run --name=my-fuzzing-web-server --network=mynetwork-name fuzzing-web-server`
 
-In the second solution run: `docker run --name=my-fuzzing-web-server -p 8080:8080 fuzzing-web-server`
+In the second solution run:
+`docker run --name=my-fuzzing-web-server -p 8080:8080 fuzzing-web-server`
 
